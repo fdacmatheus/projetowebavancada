@@ -1,0 +1,84 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f0f5;
+  }
+  
+  .loginCard {
+    width: 400px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .loginHeader {
+    margin-bottom: 1.5rem;
+  }
+  
+  .loginLogo {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  .loginHeader h2 {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .loginInput {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .forgotPassword {
+    display: block;
+    margin-bottom: 1rem;
+    color: #6c757d;
+    font-size: 0.875rem;
+    text-decoration: none;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .loginButton:hover {
+    background-color: #5a379d;
+  }
+  
+  .createAccountText {
+    margin-top: 1rem;
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  .createAccountLink {
+    color: #6f42c1;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .createAccountLink:hover {
+    color: #5a379d;
+  }
+  
+  

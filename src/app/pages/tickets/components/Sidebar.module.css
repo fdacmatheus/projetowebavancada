@@ -1,0 +1,50 @@
+.sidebar {
+  font-family: 'Poppins', sans-serif;
+  width: 250px;
+  background-color: #F2F3F7;
+  padding: 1.5rem;
+  height: 100vh;
+  box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.1); /* Sombra apenas na direita */
+}
+
+.userProfile {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.userImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.userProfile h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.userProfile p {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  margin-bottom: 1rem;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.active {
+  font-weight: bold;
+  color: #6f42c1;
+}

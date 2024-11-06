@@ -1,0 +1,65 @@
+.tableContainer {
+    padding: 2rem;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .header h2 {
+    color: #333;
+  }
+  
+  .header p {
+    color: #6c757d;
+  }
+  
+  .createButton {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .createButton:hover {
+    background-color: #5a379d;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .status {
+    background-color: #d1ecf1;
+    padding: 0.3rem 0.75rem;
+    border-radius: 12px;
+    color: #0c5460;
+  }
+  
+  .viewButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #6f42c1;
+  }
+  
+  .viewButton:hover {
+    color: #5a379d;
+  }
+  
