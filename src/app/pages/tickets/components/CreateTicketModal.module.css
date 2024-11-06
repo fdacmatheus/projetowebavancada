@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  font-family: poppins;
 }
 
 .modalContent {
@@ -19,6 +20,7 @@
   border-radius: 12px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   position: relative;
+  box-sizing: border-box;
 }
 
 .closeButton {
@@ -76,6 +78,7 @@
 
 .input,
 .textarea {
+  box-sizing: border-box;
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ced4da;

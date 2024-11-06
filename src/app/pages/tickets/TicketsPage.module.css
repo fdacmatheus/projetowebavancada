@@ -1,5 +1,6 @@
 .pageContainer {
   display: flex;
+  font-family: poppins;
 }
 
 .content {

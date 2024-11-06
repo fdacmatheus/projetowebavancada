@@ -9,15 +9,19 @@ import styles from './TicketsPage.module.css';
 const TicketsPage = () => {
   const [tickets, setTickets] = useState([
     {
+      titulo: "Aluno agressivo",
       date: "16/10/2024",
-      description: "Aluno agressivo",
       status: "Aberto",
     },
   ]);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleCreateTicket = (newTicket) => {
-    setTickets((prevTickets) => [...prevTickets, newTicket]);
+    setTickets((prevTickets) => [...prevTickets, { 
+      titulo: newTicket.titulo,
+      date: newTicket.dataAtendimento,
+      status: "Aberto"
+    }]);
   };
 
   return (

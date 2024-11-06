@@ -18,7 +18,6 @@ const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
       <div className={styles.userProfile}>
-        <img src="/path/to/user-image.jpg" alt="User" className={styles.userImage} />
         <h3>Marcos Paulo</h3>
         <p>Pai do aluno</p>
       </div>
